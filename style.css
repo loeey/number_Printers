@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2？family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8878b0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* vh，是指CSS中相对长度单位，表示相对视口高度（Viewport Height），1vh = 1% * 视口高度。 */
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+div {
+    position: absolute;
+    bottom: 260px;
+    background: rgba(251, 161, 161, 0.3);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: rgb(251, 197, 197);
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
